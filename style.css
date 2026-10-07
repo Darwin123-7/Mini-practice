@@ -1,0 +1,67 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: white;
+}
+
+body {
+
+background-image: linear-gradient(90deg, purple, black);
+  padding: 10px;    
+  display: grid;
+  justify-content: center;
+  grid-template-columns:  1fr 2fr;
+  max-height: 100vh;
+}
+
+.Players {
+  display: flex;
+  flex-direction: row;
+  width: 300px;
+  height: 200px;
+  justify-content: center;
+  border: 2px solid black;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
+label {
+  display: inline-block;
+  width: 165px;
+}
+
+input {
+  width: 250px;
+  padding: 5px;
+  color: black;
+}
+
+button {
+    color: black;
+}
+.button {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 259px));
+    grid-template-rows: repeat(auto-fit, minmax(150px, 259px));
+    gap: 20px;
+}
+
+.grid-container {
+    border: 2px solid black;
+    box-shadow: 0 0 16px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-inline-size: 44ch;
+
+}

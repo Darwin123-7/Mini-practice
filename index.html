@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Player</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      h1 {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+
+    <h1><em>Library Management</em></h1>
+    <div class="Players">
+      <form action="Go-Here" method="post">
+        <label for="Player">Player Name:</label>
+        <input
+          type="text"
+          id="Player"
+          name="Player"
+          placeholder="Player Name"
+        />
+        <label for="p_Age">Player Age:</label>
+        <input type="number" id="p_Age" name="p_Age" placeholder="Player Age" />
+
+        <div class="button">
+          <button type="submit">Submit Book</button>
+          <button type="reset">Reset</button>
+        </div>
+      </form>
+    </div>
+
+    <div class="container"></div>
+
+    <script src="javachips.js" defer></script>
+  </body>
+</html>
